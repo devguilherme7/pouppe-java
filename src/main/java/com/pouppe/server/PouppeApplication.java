@@ -9,5 +9,4 @@ public class PouppeApplication {
     public static void main(String[] args) {
         SpringApplication.run(PouppeApplication.class, args);
     }
-
 }
