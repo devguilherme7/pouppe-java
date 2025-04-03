@@ -1,0 +1,9 @@
+services:
+  postgres:
+    extends:
+      file: config/docker/compose/postgres.yml
+      service: postgres
+
+networks:
+  pouppe-network:
+    driver: bridge
